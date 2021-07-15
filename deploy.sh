@@ -16,16 +16,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 部署到 https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
-
-# 部署到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
-
 # ssh 模式
 git push -f git@github.com:megaJingHua/day_by_day.git master:gh-pages
-
-# HTTPS 模式
-# git push -f https://github.com/hsiangfeng/HexfootMusic.git master:gh-pages
 
 cd -
